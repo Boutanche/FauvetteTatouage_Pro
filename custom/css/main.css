@@ -1,0 +1,50 @@
+/* line 1, ../../wamp/www/FT_007/custom/css/sass/_portefolio.scss */
+.item .item-wrap:hover:after {
+  opacity: 0.2;
+  visibility: visible;
+}
+
+/* line 2, ../../wamp/www/FT_007/custom/css/sass/_navbar.scss */
+nav .burger {
+  width: 28px;
+  height: 32px;
+  cursor: pointer;
+  position: fixed;
+  margin-left: 70%;
+  z-index: 9;
+}
+
+/* line 1, ../../wamp/www/FT_007/custom/css/sass/_menu.scss */
+.custom-navmenu {
+  background: transparent;
+}
+
+/* line 6, ../../wamp/www/FT_007/custom/css/sass/_menu.scss */
+.custom-navmenu .custom-menu li a {
+  color: #0d1e2d;
+}
+
+/* line 12, ../../wamp/www/FT_007/custom/css/sass/_menu.scss */
+#main-navbar {
+  position: fixed;
+  z-index: 9;
+  margin-right: 20%;
+  margin-left: 80%;
+}
+
+/* line 1, ../../wamp/www/FT_007/custom/css/sass/_header.scss */
+.site-section {
+  padding: 1rem 0;
+}
+
+@media (max-width: 780px) {
+  /* line 2, ../../wamp/www/FT_007/custom/css/sass/_query.scss */
+  #main-navbar {
+    position: fixed;
+    z-index: 9;
+    margin-right: 20%;
+    margin-left: 60%;
+  }
+}
+
+/*# sourceMappingURL=main.css.map */
